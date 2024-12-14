@@ -8,7 +8,7 @@ const app = express();
 const port = process.env.HOST_PORT
 const __dirname = path.resolve();
 app.listen(port,()=>{
-    console.log("Server running on: "+port+`${__dirname}`)
+    console.log("Server running: "+port+`${__dirname}`)
 })
 
 app.use(express.json());
